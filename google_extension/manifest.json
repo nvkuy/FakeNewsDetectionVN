@@ -1,0 +1,28 @@
+  {
+    "name": "Fake News Detection",
+    "version": "1.0",
+    "description": "A extension help to detect fake news",
+    "icons": {
+    	"128": "icons/detect100.png",
+    	"48": "icons/detect48.png",
+    	"32": "icons/detect32.png",
+    	"16": "icons/detect16.png"
+    },
+    "permissions": [ 
+  		"tabs"
+	],
+    // "content_scripts": [{
+    // 	"matches": ["<all_urls>"],
+    // 	"js": ["content.js"]
+    // }],
+    "browser_action": {
+      	"default_icon": {
+    	"128": "icons/detect100.png",
+    	"48": "icons/detect48.png",
+    	"32": "icons/detect32.png",
+    	"16": "icons/detect16.png"
+    	},
+    	"default_popup": "popup.html"
+    },
+    "manifest_version": 2
+  }
